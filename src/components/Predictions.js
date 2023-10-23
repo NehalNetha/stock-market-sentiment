@@ -26,6 +26,19 @@ export default function Predictions() {
 
     console.log(getSnipsPredict)
 
+
+  const getRecommendation = () => {
+    let k = []
+    if(getSnipsPredict.data !== undefined){
+      Object.keys(getSnipsPredict.data).map((key, index) => ( 
+        k.push(getSnipsPredict.data[key])
+      ))
+    }
+    return k
+  }
+
+  console.log(getRecommendation())
+
  
  
 
@@ -40,10 +53,14 @@ export default function Predictions() {
             
             : <p>unreachable</p>
         }
-
+      {
+        getSnipsPredict.data !== undefined ? (
         <div className='w-[100px] h-[100px] rounded-full bg-green-600 text-center flex justify-center items-center cursor-pointer hover:bg-green-800'>
             <p className=''>BUY</p>
-        </div>
+        </div>) : <p></p>
+      }
+
+
 
     </div>
   )

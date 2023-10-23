@@ -34,6 +34,9 @@ export default function Header() {
     <div className=''>
         <div className=''>
             <h1 className="ml-[200px] pt-9 text-gray-600 text-[2rem] font-bold font-kalam ">Predict The Stock Market</h1>
+            <div className=''>
+                    
+            </div>
         </div>
             <div className='flex flex-col gap-6 justify-center items-center mt-[6rem]'>
             <p className='w-[600px] text-center font-bold text-[2.8rem] font-kalam '>AI generated recommendation system for the Stock Market</p>
