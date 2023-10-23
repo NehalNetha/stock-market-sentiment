@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stock-market-sentiment/static/css/main.7d28cf00.css",
-    "main.js": "/stock-market-sentiment/static/js/main.3e0094fd.js",
+    "main.js": "/stock-market-sentiment/static/js/main.af54118b.js",
     "index.html": "/stock-market-sentiment/index.html",
     "main.7d28cf00.css.map": "/stock-market-sentiment/static/css/main.7d28cf00.css.map",
-    "main.3e0094fd.js.map": "/stock-market-sentiment/static/js/main.3e0094fd.js.map"
+    "main.af54118b.js.map": "/stock-market-sentiment/static/js/main.af54118b.js.map"
   },
   "entrypoints": [
     "static/css/main.7d28cf00.css",
-    "static/js/main.3e0094fd.js"
+    "static/js/main.af54118b.js"
   ]
 }
